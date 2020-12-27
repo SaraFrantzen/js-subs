@@ -4,7 +4,6 @@ import VideoPlayer from './components/VideoPlayer'
 const App = () => {
   return (
     <>
-      JS Subs
       <VideoPlayer />
     </>
   )

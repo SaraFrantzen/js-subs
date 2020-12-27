@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
+import { Player } from "video-react";
+import dropback from "../media/dropback.mp4";
+import sara from "../media/sara3.jpg";
 
 const VideoPlayer = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <>
+      <Player
+        playsInline
+        poster={sara}
+        src={dropback}
+        fluid={false}
+        width={500}
+      />
+    </>
+  );
+};
 
-export default VideoPlayer
+export default VideoPlayer;
